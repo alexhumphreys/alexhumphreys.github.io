@@ -30,9 +30,10 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 repository: alexhumphreys/alexhumphreys.github.io.
+github: [metadata]
 
 # Build settings
-theme: jekyll-theme-hacker
+theme: minima
 plugins:
   - jekyll-feed
 
