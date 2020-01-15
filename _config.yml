@@ -35,6 +35,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+header_pages:
+  - about.markdown
+  - language-resources.md
+
 minima:
   skin: solarized-dark
 # Exclude from processing.
