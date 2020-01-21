@@ -7,6 +7,7 @@ Some links I've been playing around with to learn how to create programming lang
 - [Paper: Monadic Parser Combinators](http://www.cs.nott.ac.uk/~pszgmh/monparsing.pdf), good intro to parser combinators and monads
 - [Good short ruby implementation](https://gist.github.com/zacharyvoase/271792) of the aforementioned Monadic Paser Combinators [paper](https://gist.github.com/zacharyvoase/271792).
 - [Easy introduction to what lambda calculus is](https://palmstroem.blogspot.com/2012/05/lambda-calculus-for-absolute-dummies.html)
+- [Parser combinators library for swift with a decent README for noobs](https://github.com/kareman/FootlessParser)
 
 And a big list of resources somebody else conveniently made:
 
