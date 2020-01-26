@@ -8,6 +8,8 @@ Some links I've been playing around with to learn how to create programming lang
 - [Good short ruby implementation](https://gist.github.com/zacharyvoase/271792) of the aforementioned Monadic Paser Combinators [paper](https://gist.github.com/zacharyvoase/271792).
 - [Easy introduction to what lambda calculus is](https://palmstroem.blogspot.com/2012/05/lambda-calculus-for-absolute-dummies.html)
 - [Parser combinators library for swift with a decent README for noobs](https://github.com/kareman/FootlessParser)
+- [Calculator writen in idris with Lightyear](https://github.com/steshaw/idris-calc)
+
 
 And a big list of resources somebody else conveniently made:
 
