@@ -16,6 +16,6 @@ Had a good talk with an old friend who knows this stuff, and he gave me a whirlw
 
 Been following along with [David Christiansen's](http://davidchristiansen.dk/tutorials/implementing-types-hs.pdf) and [Andras Kovaks'](https://github.com/AndrasKovacs/elaboration-zoo) work. So far I have copied this [parser/evaluator](https://github.com/AndrasKovacs/elaboration-zoo/tree/89bd75a2fe3fb9aa8e505bb89723acd8f0e730a9/01-eval) for untyped lambda calculus. I've used it to play with arithmetic and Boolean logic, so I can get a better handle on lambda calculus in general. 
 
-Currently working on writing out a few substitutions, much as they do in the middle of [this](https://blog.brunobonacci.com/2017/10/08/lambda-calculus-and-boolean-logic/) post, and will write this up a post about it. 
+Currently working on writing out a few substitutions, much as they do in the middle of [this](https://blog.brunobonacci.com/2017/10/08/lambda-calculus-and-boolean-logic/) post. Just posted some [boolean expansions](https://alexhumphreys.github.io/2020/03/01/january-february-review.html), will do some arithmetic ones soon. 
 
 Once I get that down, next stop is the typechecker from elaboration zoo. This has given me a bit of a goal to aim for with all this, but more on that later. 
