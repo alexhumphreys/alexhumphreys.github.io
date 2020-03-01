@@ -1,5 +1,3 @@
-# January February review
-
 _[mostly of interest to myself as a future reference]_
 
 I set myself a goal of learning how programming languages work this year, and to use exercise as an excuse to write idris. Here's what I've been up to so far. 

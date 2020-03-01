@@ -1,5 +1,3 @@
-# Lambda calculus boolean expansions and substitutions
-
 Still trying to wrap my head around lambda calculus, so I thought I'd write out a few expansions/substitutinos for practice. First example is taken from [this blog post](https://blog.brunobonacci.com/2017/10/08/lambda-calculus-and-boolean-logic/) by Bruno Bonacci, with the syntax changed to match the evaluator I've been working on [here](https://github.com/alexhumphreys/pl-playground/tree/e2658e94da304d0d8fdf233c8602e8cac1aaee14/lambda-calc)
 
 ```
