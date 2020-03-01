@@ -11,7 +11,7 @@ let NOT = (\\b.  (b FALSE TRUE)) in
 ...
 ```
 
-## Example one: AND
+## Example one: `AND`
 
 ```
 AND TRUE FALSE
@@ -30,7 +30,7 @@ AND TRUE FALSE
 (FALSE) -- expected value for (AND TRUE FALSE)
 ```
 
-## Example two: OR
+## Example two: `OR`
 
 ```
 OR TRUE FALSE
@@ -44,7 +44,7 @@ OR TRUE FALSE
 (TRUE) -- expected value of OR TRUE FALSE
 ```
 
-## Example three: OR again
+## Example three: `OR` again
 
 ```
 OR FALSE TRUE
@@ -62,7 +62,7 @@ OR FALSE TRUE
 (TRUE) -- expected value of OR FALSE TRUE
 ```
 
-## Example four: NOT
+## Example four: `NOT`
 
 ```
 NOT TRUE
