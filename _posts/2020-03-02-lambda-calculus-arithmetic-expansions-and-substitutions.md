@@ -12,7 +12,7 @@ S = (\\w y x. y (w y x))
 4  | (\\y x. y (y (y (y (x)))))             | beta
 ```
 
-### Example one: 2S3
+### Example two: 2S3
 
 ```
 2 S 3
@@ -32,7 +32,7 @@ S = (\\w y x. y (w y x))
 9  | ((\\y x. y (y (y (y (y (x)))))))                                | beta
 ```
 
-### Example one: ADD 2 2
+### Example three: ADD 2 2
 ```
 2 = (\\f x. f (f x))
 ADD = (\\m n f x. m f (n f x))
