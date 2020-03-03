@@ -7,9 +7,9 @@ S = (\\w y x. y (w y x))
 
 0  | S 3
 1  | (\\w y x. y (w y x)) 3                 | by def
-2  | (\\y x. y (3 y x))                    | beta
+2  | (\\y x. y (3 y x))                     | beta
 3  | (\\y x. y ((\\s z. s(s (s (z)))) y x)) | by def
-4  | (\\y x. y (y (y (y (x)))))              | beta
+4  | (\\y x. y (y (y (y (x)))))             | beta
 ```
 
 ### Example one: 2S3
