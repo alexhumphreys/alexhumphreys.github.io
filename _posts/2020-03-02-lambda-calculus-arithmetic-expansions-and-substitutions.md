@@ -41,11 +41,11 @@ ADD = (\\m n f x. m f (n f x))
 1  | (\\m n f x. m f (n f x)) 2 2           | by def
 2  | (\\f x. 2 f (2 f x))                   | beta
 3  | (\\f x. 2 f ((\\f x. f (f x)) f x))    | by def
-3  | (\\f x. 2 f ((\\s z. s (s z)) f x))    | alpha
-4  | (\\f x. 2 f (f (f x)))                 | beta
-5  | (\\f x. (\\f x. f (f x)) f (f (f x)))  | by def
-5  | (\\f x. (\\s z. s (s z)) f (f (f x)))  | alpha
-5  | (\\f x. f (f (f (f x))))               | beta
+4  | (\\f x. 2 f ((\\s z. s (s z)) f x))    | alpha
+5  | (\\f x. 2 f (f (f x)))                 | beta
+6  | (\\f x. (\\f x. f (f x)) f (f (f x)))  | by def
+7  | (\\f x. (\\s z. s (s z)) f (f (f x)))  | alpha
+8  | (\\f x. f (f (f (f x))))               | beta
 ```
 
 Got a bit confused between examples online that were like `2S3` or `ADD 2 3`. The first calls the successor function twice on `3`, while the latter adds `2` and `3`. That makes it pretty clear that `ADD` and `S` are very different functions, but my brain got confused and tried to switch between the examples as if they were the same. Lesson learned about slowing down and reading stuff more carefully. 
