@@ -26,8 +26,8 @@ If there is an error, ￼I guess the maintainers of service a can then choose to
 ￼
 This is a kind of simple example, but I've been configuring microservices enough to have run into similar situations and it's more often then I'd like￼. ￼
 
-This example as soon as you maintain both services, but I can imagine even for some external dependencies like S3 bucket, you could just write a Dhall file to that S3 bucket with the buckets relevant information,￼ and then request that file from your service￼.
+This example as soon as you maintain both services, but I can imagine even for some external dependencies like S3 bucket, you could just write a Dhall file to that S3 bucket with the buckets relevant information,￼and then request that file from your service. Also, should you run into new configuration issues at runtime, you could update that `/config.dhall` endpoint as like a regression test.
 
-Of course this doesn't have to use Dhall, but it's a simple enough language and expressive for these kind of cases. So if your language has binding you'd be able to play around with this idea straight away.￼￼
+Of course this idea doesn't have to use Dhall, but it's with it's imports and `assert` it's simple to express these kind of configuration contracts. So if whatever programming language you use has a [Dhall binding](https://github.com/dhall-lang/awesome-dhall#binding) you'd be able to play around with this idea straight away.￼￼
 
 Not sure if this is useful, there's probably a bunch of issues i haven't thought of, but it seems like an interesting idea, would like to see where it goes.
