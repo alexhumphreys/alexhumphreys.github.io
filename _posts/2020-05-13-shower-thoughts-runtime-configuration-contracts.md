@@ -12,11 +12,13 @@ Having to wait until the first request to find out that this error has occurred 
 
 Now when service A starts, it can read its own configuration and create a check for what it depends on, like:
 
-`let B = http://serviceB.example.com/config.dhall
+```
+let B = http://serviceB.example.com/config.dhall
 
 let test = assert : B.authEnabled === True
 
-in test`
+in test
+```
 
 Now Service A at start-up can check whether its dependencies are configured the way it needs. Plus an added bonus is it checks that it has the correct URL for service B and that it can reacher over the network.￼￼
 
