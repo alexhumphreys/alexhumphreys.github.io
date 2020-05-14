@@ -10,7 +10,7 @@ Some links I've been playing around with to learn how to create programming lang
 - [Parser combinators library for swift with a decent README for noobs](https://github.com/kareman/FootlessParser)
 - [Calculator writen in idris with Lightyear](https://github.com/steshaw/idris-calc)
 - [Andras Kovaks list of resources for implementing Type Theory stuff](https://math.stackexchange.com/a/3468022)
-
+- parsing a [function language with combinators](http://www.burz.io/2014/06/24/parsing.html)
 
 And a big list of resources somebody else conveniently made:
 
