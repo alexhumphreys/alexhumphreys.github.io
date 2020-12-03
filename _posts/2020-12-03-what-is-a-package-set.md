@@ -75,9 +75,9 @@ Most package sets include the language, specifying the package set version speci
 
 ### What if you need a different version than in the package set?
 
-There is usually some way to override the package set versions on a per project basis. If you depend on a project CC that depends on a project BB, but you depend on a newer version of BB, then I'm not sure what happens. You can always wait till CC updates to use the newer BB, and then grab both newer versions from a later package set, but not sure what happens till then. That's probably a problem with many package managers though.
+There is usually some way to override the package set versions on a per project basis.  In a more general sense, you can usually tell the package manager where the package set definition is located, it will likely default to somewhere on the internet but you could specify a local definition.
 
-In a more general sense, you can usually tell the package manager where the package set definition is located, it will likely default to somewhere on the internet but you could specify a local definition.
+Say you depend on a project CC that depends on a project BB, but you depend on a newer version of BB. In this case you would override the package set with the newer version of BB and hope that CC works. If it doesn’t then you are stuck and will need to fork and fix CC or speak to the maintainer etc.
 
 ## Conclusion
 
