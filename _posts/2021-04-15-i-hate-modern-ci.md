@@ -69,9 +69,9 @@ If I had infinite time/ability to solve this what would I do? I'd probably start
 
 Once that's separate you can now have different ways of interacting with that API:
 
-- classic thing that watches repo for yaml file and does something when it finds it.
+- classic thing that watches repo for yaml file, and when it finds it calls the API.
 - make a domain specific programming language (DSL) for expressing CI jobs, write an interpreter for that which then uses the API.
-- write a command line too that reads that DSL and can run it locally, or at least let you step through it debugger style.
+- write a command line tool that reads that DSL and can run it locally, or at least let you step through it debugger style.
 - as Gregory said, write a Gradle/SBT/Bazel/whatever plugin that calls the API.
 - who knows what else.
 
