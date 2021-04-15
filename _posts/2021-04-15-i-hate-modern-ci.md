@@ -60,6 +60,7 @@ So modern CI may start simple but very quickly you run into stuff like:
 - any kind of specific failure is real tough to handle.
 - _when_ steps run and _what commands are run_ are conflated: got one service that deploys to K8S and another to EC2? Get ready to recreate all that crazy pipeline failure logic.
 - `include` dumps all jobs into your pipeline, if you only have 2 envs, but someone else has 3, good luck sharing stuff.
+- left it out above for brevity, but writing a shell script in a YAML file is a thankless task.
 
 I'm tired. I'm tired of pretending this isn't programming. There's actions, happening in an order, governed by rules as to when they happened, recovering from failure... We have a way to tell computers how to do this, and it's programming languages. Then maybe we'd realise we need some proper tooling: an ability to run locally, see which jobs would get run when, see if failures are handled at the correct time, proper abstractions for repetition...
 
