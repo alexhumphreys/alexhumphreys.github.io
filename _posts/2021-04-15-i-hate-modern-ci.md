@@ -62,7 +62,7 @@ So modern CI may start simple but very quickly you run into stuff like:
 - `include` dumps all jobs into your pipeline, if you only have 2 envs, but someone else has 3, good luck sharing stuff.
 - left it out above for brevity, but writing a shell script in a YAML file is a thankless task.
 
-I'm tired. I'm tired of pretending this isn't programming. There's actions, happening in an order, governed by rules as to when they happened, recovering from failure... We have a way to tell computers how to do this, and it's programming languages. Then maybe we'd realise we need some proper tooling: an ability to run locally, see which jobs would get run when, see if failures are handled at the correct time, proper abstractions for repetition...
+I'm tired. I'm tired of pretending this isn't programming. There's actions, happening in an order, governed by rules as to when they happened, recovering from failure... We have a way to tell computers how to do this, and it's programming languages. Then maybe we'd realise we need some proper tooling: an ability to run locally (shout out to [CircleCI which has this](https://circleci.com/docs/2.0/local-cli-getting-started/#testing-a-job-before-pushing-to-a-vcs)), see which jobs would get run when, see if failures are handled at the correct time, proper abstractions for repetition...
 
 This is normally when I'd recommend [Dhall](https://dhall-lang.org/), which would help with the [inherent yaml issues](https://noyaml.com/), but it would be tough to express this logic in dhall, eg: it has `if` statements that will generate the correct config, but this logic would need an if statement that is around at runtime so the pipeline behaves correctly.
 
