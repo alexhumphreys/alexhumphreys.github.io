@@ -4,9 +4,7 @@ The talk is a brief intro to Dhall and why I'm using it, and a status update on 
 
 
 
-[![Edwin Brady Tells Us What's New in Idris 2 (Berlin Functional Programming Group)](https://img.youtube.com/vi/nbClauMCeds/0.jpg)](https://www.youtube.com/watch?v=nbClauMCeds "Edwin Brady Tells Us What's New in Idris 2 (Berlin Functional Programming Group)")
-
-[![Writing a Dhall Implementation in Idris - Click to Watch](https://i.imgur.com/gtmMAnE.png)](https://vimeo.com/543508498 "Writing a Dhall Implementation in Idris - Click to Watch!")
+[![Writing a Dhall Implementation in Idris - Click to Watch](https://i.imgur.com/0NHHgs3.png)](https://vimeo.com/543508498 "Writing a Dhall Implementation in Idris - Click to Watch!")
 
 Here's some links that I mention in the talk:
 
