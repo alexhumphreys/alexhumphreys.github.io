@@ -4,7 +4,7 @@ The talk is a brief intro to Dhall and why I'm using it, and a status update on 
 
 
 
-[![Writing a Dhall Implementation in Idris - Click to Watch](https://i.imgur.com/0NHHgs3.png)](https://vimeo.com/543508498 "Writing a Dhall Implementation in Idris - Click to Watch!")
+[![Writing a Dhall Implementation in Idris - Click to Watch](https://i.imgur.com/LKaS5te.png)](https://vimeo.com/543508498 "Writing a Dhall Implementation in Idris - Click to Watch!")
 
 Here's some links that I mention in the talk:
 
