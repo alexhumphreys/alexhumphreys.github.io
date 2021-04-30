@@ -79,3 +79,5 @@ Once that's separate you can now have different ways of interacting with that AP
 If you have a good API, people will find interesting ways to use it. It sounds like [Taskcluster](https://docs.taskcluster.net/docs) from Mozilla may be that, and I intend on looking into it, and the ability to write github actions that can be shared is a good step in this direction.
 
 So I'm hopefully some people will do something interesting in this space, but if we keep being satisfied with YAML+janky features that don't play well together, CI life won't really get better.
+
+PS: a friend pointed out that it sounds like what I want is just Jenkins, which I remember disliking back in the day but maybe I was wrong and Jenkins was The Way all along.
