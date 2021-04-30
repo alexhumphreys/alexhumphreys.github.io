@@ -2,7 +2,11 @@ I gave a talk about my Dhall implementation [Idrall](https://github.com/alexhump
 
 The talk is a brief intro to Dhall and why I'm using it, and a status update on how my implementation is going. So if that's of interest to you, or you just want to see what I've been up to while stuck indoors for the pandemic, check it out!
 
-[![Dhall implementation in idris](https://imgur.com/a/vTixrpR)](https://vimeo.com/543508498 "Writing a Dhall Implementation in Idris - Click to Watch!")
+
+
+[![Edwin Brady Tells Us What's New in Idris 2 (Berlin Functional Programming Group)](https://img.youtube.com/vi/nbClauMCeds/0.jpg)](https://www.youtube.com/watch?v=nbClauMCeds "Edwin Brady Tells Us What's New in Idris 2 (Berlin Functional Programming Group)")
+
+[![Writing a Dhall Implementation in Idris - Click to Watch](https://i.imgur.com/DF06Odp.png)](https://vimeo.com/543508498 "Writing a Dhall Implementation in Idris - Click to Watch!")
 
 Here's some links that I mention in the talk:
 
