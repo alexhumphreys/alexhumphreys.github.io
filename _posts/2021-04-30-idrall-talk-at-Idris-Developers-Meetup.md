@@ -9,6 +9,6 @@ And a correction: I mention the chez startup time being slow, but I think I was 
 Here's some links that I mention in the talk:
 
 - [The official Dhall website: https://dhall-lang.org/](https://dhall-lang.org/)
-- [The official Dhall website: https://www.idris-lang.org/](https://www.idris-lang.org/)
+- [The official Idris website: https://www.idris-lang.org/](https://www.idris-lang.org/)
 - [My dhall implementation: https://github.com/alexhumphreys/idrall](https://github.com/alexhumphreys/idrall)
 - [helo-world project for idris: https://github.com/alexhumphreys/hello-idris2](https://github.com/alexhumphreys/hello-idris2)
