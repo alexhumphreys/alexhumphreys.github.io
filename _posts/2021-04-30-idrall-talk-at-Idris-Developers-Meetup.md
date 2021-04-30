@@ -2,9 +2,9 @@ I gave a talk about my Dhall implementation [Idrall](https://github.com/alexhump
 
 The talk is a brief intro to Dhall and why I'm using it, and a status update on how my implementation is going. So if that's of interest to you, or you just want to see what I've been up to while stuck indoors for the pandemic, check it out!
 
-
-
 [![Writing a Dhall Implementation in Idris - Click to Watch](https://i.imgur.com/LKaS5te.png)](https://vimeo.com/543508498 "Writing a Dhall Implementation in Idris - Click to Watch!")
+
+And a correction: I mention the chez startup time being slow, but I think I was wrong and I mean the startup time of executing in the REPL. When compiling to a binary and running it, the startup time is super quick.
 
 Here's some links that I mention in the talk:
 
