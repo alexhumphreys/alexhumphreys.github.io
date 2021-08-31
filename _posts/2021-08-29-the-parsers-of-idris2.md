@@ -68,7 +68,7 @@ I think this is used to parse the protocol that the IDE mode uses idris2 uses to
 
 ## 8. `src/TTImp/Parser.idr`
 
-Not sure...
+This is to parse the textual representation of TTImp. This is for use when you're writing your own frontend for idris2. Say for example you want to write your own language that will use idris2's elaborator/type checker. You can parse your source code in whatever language you want, eg Haskell, then produce a text file of TTImp. idris2 can then read that TTImp text file, parse it with `src/TTImp/Parser.idr`, and then elaborate it. Thanks to @gallais on the Idris2 discord for explaining this.
 
 ## 9. `libs/contrib/Language/JSON/Parser.idr`
 
