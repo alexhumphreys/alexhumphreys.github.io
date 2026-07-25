@@ -23,11 +23,11 @@ email: humphreys.a@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Fumbling through devops, just like everyone else.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://alexhumphreys.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: snazzybucket
 github_username:  alexhumphreys
 
-repository: alexhumphreys/alexhumphreys.github.io.
+repository: alexhumphreys/alexhumphreys.github.io
 github: [metadata]
 
 # Build settings
